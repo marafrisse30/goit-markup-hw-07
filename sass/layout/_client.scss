@@ -1,10 +1,10 @@
-.client-list {
+.client__list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
 }
-.client-title {
+.client__title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -13,21 +13,21 @@
   color: var(--black-title-color);
   margin-bottom: 50px;
 }
-.client-list-icon {
+.client__icon {
   fill: var(--icon-color);
   transition: fill var(--time) var(--cubic);
-  .client-list-link:hover > &,
-  .client-list-link:focus > & {
+  .client__link:hover > &,
+  .client__link:focus > & {
     fill: var(--accent-color);
   }
 }
-.client-list-item {
+.client__item {
   flex-basis: calc((100% - 180px) / 6);
   margin-left: 30px;
   margin-top: 30px;
 }
 
-.client-list-link {
+.client__link {
   display: flex;
   justify-content: center;
   align-items: center;
